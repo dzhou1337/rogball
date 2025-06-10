@@ -1,3 +1,7 @@
+
+homeLineup = initHomeTeamTest()
+awayLineup = initAwayTeamTest()
+
 outs = 0
 strikes = 0
 balls = 0
@@ -5,7 +9,11 @@ balls = 0
 inning = 1
 topOfInning = true
 
-currentBatter = instance_create_depth(x,y,0,obj_baller)
+currentHomeBatterIndex = 0
+currentAwayBatterIndex = 0
+
+currentBatter = getBallerByID(awayLineup[currentAwayBatterIndex])
+
 
 currentPitcher = instance_create_depth(x,y,0,obj_baller)
 

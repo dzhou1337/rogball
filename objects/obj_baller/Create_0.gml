@@ -12,3 +12,5 @@ avoidKRating = 50
 pitchVelocityRating = 50
 pitchMovementRating = 50
 pitchControlRating = 50
+
+ballerID = 0
