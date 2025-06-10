@@ -45,3 +45,9 @@ if baserunners[2]{
 }
 
 draw_text(x,y+lineoffset*13, lastPAResult)
+
+draw_text(x,y+lineoffset*15, "HOME TEAM")
+drawLineup(x,y+lineoffset*16, lineoffset, homeLineup, true)
+
+draw_text(x+columnoffset*1, y+lineoffset*15,"AWAY TEAM")
+drawLineup(x+columnoffset*1,y+lineoffset*16, lineoffset, awayLineup, false)
