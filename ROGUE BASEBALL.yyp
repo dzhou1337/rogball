@@ -58,6 +58,7 @@
     {"id":{"name":"doStrikeout","path":"scripts/doStrikeout/doStrikeout.yy",},},
     {"id":{"name":"doTriple","path":"scripts/doTriple/doTriple.yy",},},
     {"id":{"name":"doWalk","path":"scripts/doWalk/doWalk.yy",},},
+    {"id":{"name":"drawLineup","path":"scripts/drawLineup/drawLineup.yy",},},
     {"id":{"name":"getBallerByID","path":"scripts/getBallerByID/getBallerByID.yy",},},
     {"id":{"name":"getBattedBallType","path":"scripts/getBattedBallType/getBattedBallType.yy",},},
     {"id":{"name":"getBIPOutcome","path":"scripts/getBIPOutcome/getBIPOutcome.yy",},},

@@ -37,6 +37,7 @@
     {"name":"doStrikeout","order":4,"path":"scripts/doStrikeout/doStrikeout.yy",},
     {"name":"doTriple","order":8,"path":"scripts/doTriple/doTriple.yy",},
     {"name":"doWalk","order":2,"path":"scripts/doWalk/doWalk.yy",},
+    {"name":"drawLineup","order":23,"path":"scripts/drawLineup/drawLineup.yy",},
     {"name":"getBallerByID","order":22,"path":"scripts/getBallerByID/getBallerByID.yy",},
     {"name":"getBattedBallType","order":9,"path":"scripts/getBattedBallType/getBattedBallType.yy",},
     {"name":"getBIPOutcome","order":16,"path":"scripts/getBIPOutcome/getBIPOutcome.yy",},
