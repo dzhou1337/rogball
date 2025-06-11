@@ -8,13 +8,13 @@ function initAwayTeamTest(){
 	awayballer2 = instance_create_depth(x,y,0,obj_baller)
 	awayballer2.firstName = "Brandon"
 	awayballer2.lastName = "Lowe"
-	awayballer2.batsRight = false
+	awayballer2.batsRight = true
 	awayballer2.ballerID = 11
 	
 	awayballer3 = instance_create_depth(x,y,0,obj_baller)
 	awayballer3.firstName = "Yandy"
 	awayballer3.lastName = "Diaz"
-	awayballer3.batsRight = false
+	awayballer3.batsRight = true
 	awayballer3.ballerID = 12
 	
 	awayballer4 = instance_create_depth(x,y,0,obj_baller)
@@ -26,13 +26,13 @@ function initAwayTeamTest(){
 	awayballer5 = instance_create_depth(x,y,0,obj_baller)
 	awayballer5.firstName = "Junior"
 	awayballer5.lastName = "Caminero"
-	awayballer5.batsRight = false
+	awayballer5.batsRight = true
 	awayballer5.ballerID = 14
 	
 	awayballer6 = instance_create_depth(x,y,0,obj_baller)
 	awayballer6.firstName = "Jake"
 	awayballer6.lastName = "Mangum"
-	awayballer6.batsRight = false
+	awayballer6.batsRight = true
 	awayballer6.ballerID = 15
 	
 	awayballer7 = instance_create_depth(x,y,0,obj_baller)

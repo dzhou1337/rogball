@@ -409,7 +409,7 @@ function getBIPOutcome(fielder, ballType, ballDir){
 				} else if (fielder == "CF"){
 					BIPOutcomes = [480,125,18,376]
 				} else if (fielder == "RF"){
-					BIPOutcomes = [596,345,64,206]
+					BIPOutcomes = [596,345,64,106]
 				} else {
 					return "ERROR BIP OUTCOME, nonfielder"
 				} 
@@ -517,9 +517,9 @@ function getBIPOutcome(fielder, ballType, ballDir){
 				} else if (fielder == "SS"){
 					BIPOutcomes = [67,38,0,895]
 				} else if (fielder == "LF"){
-					BIPOutcomes = [443,169,6,381]
+					BIPOutcomes = [52,45,2,901]
 				} else if (fielder == "CF"){
-					BIPOutcomes = [175,553,27,244]
+					BIPOutcomes = [20,186,21,774]
 				} else if (fielder == "RF"){
 					return "ERROR IMPOSSIBLE OUTCOME: L OPPO F TO RF"
 				} else {

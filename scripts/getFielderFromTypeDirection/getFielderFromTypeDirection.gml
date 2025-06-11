@@ -37,23 +37,23 @@ function getFielderFromTypeDirection(ballType, ballDirection){
 				fielderChances = [7,89,604,300,0,0,0,0,5]
 			}
 		}
-	} else {
+	} else { //LEFTY HITTER
 		if (ballDirection == "PULL"){
 			if (ballType == "LINER"){
 				fielderChances = [0,0,74,78,0,0,0,15,832]
 			} else if (ballType == "GROUNDER"){
 				fielderChances = [34,7,423,402,0,0,0,0,134]		
 			} else if (ballType == "FLYER"){
-				fielderChances = [0,0,0,0,1,20,935,43,0]
+				fielderChances = [0,0,1,16,0,0,0,43,940]
 			} else { //ball is POPUP
-				fielderChances = [15,128,362,462,0,33,0,0,0]
+				fielderChances = [15,128,362,462,0,0,0,0,0]
 			}
 			
 		} else if (ballDirection == "CENT"){
 			if (ballType == "LINER"){
 				fielderChances = [26,0,0,15,0,70,35,777,77]
 			} else if (ballType == "GROUNDER"){
-				fielderChances = [157,11,33,277,45,307,12,130,173]
+				fielderChances = [157,11,0,277,0,307,12,130,173]
 			} else if (ballType == "FLYER"){
 				fielderChances = [0,0,0,3,0,14,49,865,70]
 			} else { //ball is POPUP

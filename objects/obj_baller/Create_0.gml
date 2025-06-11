@@ -4,7 +4,7 @@ lastName = "RANDOM"
 batsRight = true
 
 //ratings
-contactRating = 50
+contactRating = 100
 powerRating = 50
 eyeRating = 50
 avoidKRating = 50

@@ -20,6 +20,7 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"baseball sim","folderPath":"folders/Scripts/baseball sim.yy","name":"baseball sim","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Batted ball results","folderPath":"folders/Scripts/baseball sim/Batted ball results.yy","name":"Batted ball results","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PA Results","folderPath":"folders/Scripts/baseball sim/PA Results.yy","name":"PA Results","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"test functions","folderPath":"folders/Scripts/test functions.yy","name":"test functions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
