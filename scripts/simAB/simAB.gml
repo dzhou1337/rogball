@@ -12,6 +12,9 @@ function simAB(){
 	//these methods generate numbers act individually as numerators that
 	//represent the chance that outcome occurs
 	//the denominator is the sum of the numbers
+	contactScore = currentBatter.contactRating - currentPitcher.pitchMovementRating
+	
+	
 	walkChance = calcWalk()
 	strikeoutChance = calcStrikeout()
 	HBPChance = calcHBP()

@@ -29,6 +29,8 @@ HBPConstant = 8
 fieldoutConstant = 489
 hitConstant = 239
 
+contactMultiplier = 10
+
 linerConstant = 248
 grounderConstant = 444
 flyerConstant = 238
@@ -43,6 +45,7 @@ testTB = 0
 testOnBase = 0
 testPA = 0
 testAB = 0
+testBIP = 0
 
 lastPAResult = ""
 

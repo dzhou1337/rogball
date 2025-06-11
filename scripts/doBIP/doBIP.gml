@@ -23,7 +23,7 @@ function doBIP(){
 		
 		doHomer()
 	} else {
-		
+		testBIP += 1
 		//add a 3% chance to make an error
 	
 		var fielder = getFielderFromTypeDirection(battedBallType,ballDirection)

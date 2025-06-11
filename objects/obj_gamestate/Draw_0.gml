@@ -16,6 +16,9 @@ if(testAB != 0 && testPA != 0){
 	draw_text(x+columnoffset*2, y+lineoffset*2,"OBP: " + string_format(testOnBase/testPA,1,3))
 	draw_text(x+columnoffset*2, y+lineoffset*3,"SLG: " + string_format(testTB/testAB,1,3))
 }
+if(testBIP != 0){
+	draw_text(x+columnoffset*2, y+lineoffset*4,"BABIP: " + string_format(testHits/testBIP,1,3))
+}
 
 
 if(topOfInning){

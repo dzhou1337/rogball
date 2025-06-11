@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"battedBallTypeToBallDirection",
   "parent":{
-    "name":"baseball sim",
-    "path":"folders/Scripts/baseball sim.yy",
+    "name":"Batted ball results",
+    "path":"folders/Scripts/baseball sim/Batted ball results.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

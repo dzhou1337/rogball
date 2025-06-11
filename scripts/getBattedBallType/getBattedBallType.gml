@@ -1,8 +1,8 @@
 function getBattedBallType(){
-	var linerChance = linerConstant
+	var linerChance = linerConstant + contactScore*5
 	var grounderChance = grounderConstant
 	var flyerChance = flyerConstant
-	var popChance = popupConstnat
+	var popChance = popupConstnat - contactScore*5
 	
 	var battedBall = "none"
 	
