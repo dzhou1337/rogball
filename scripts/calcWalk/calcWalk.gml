@@ -1,5 +1,5 @@
 function calcWalk(){
-	walkScore = walkConstant + currentBatter.eyeRating - currentPitcher.pitchControlRating
+	walkScore = walkConstant + walkScore*walkMultiplier
 
-	return walkScore
+	return max(1,walkScore)
 }

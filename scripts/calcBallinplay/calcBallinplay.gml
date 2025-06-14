@@ -2,5 +2,5 @@ function calcBallinplay(){
 	BIPConstant = fieldoutConstant + hitConstant
 	BIPScore = BIPConstant + contactScore*contactMultiplier
 
-	return BIPScore
+	return max(1,BIPScore)
 }

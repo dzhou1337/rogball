@@ -5,6 +5,7 @@ function doBIP(){
 	//Decide the fielder the ball is hit to
 	//Decide whether we get a hit, out, or error
 	
+	powerScore = currentBatter.powerRating - currentPitcher.pitchMovementRating
 	
 	var battedBallType = getBattedBallType()
 	show_debug_message(battedBallType)
