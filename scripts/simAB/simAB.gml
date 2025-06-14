@@ -13,7 +13,8 @@ function simAB(){
 	//represent the chance that outcome occurs
 	//the denominator is the sum of the numbers
 	contactScore = currentBatter.contactRating - currentPitcher.pitchMovementRating
-	
+	walkScore = currentBatter.eyeRating - currentPitcher.pitchControlRating
+	strikeoutScore = currentPitcher.pitchVelocityRating - currentBatter.avoidKRating
 	
 	walkChance = calcWalk()
 	strikeoutChance = calcStrikeout()

@@ -1,4 +1,24 @@
 
+
+strikeoutConstant = 166
+walkConstant = 96
+HBPConstant = 8
+fieldoutConstant = 489
+hitConstant = 239
+
+contactMultiplier = 5
+walkMultiplier = 3
+strikeoutMultiplier = 6
+
+linerConstant = 248
+grounderConstant = 444
+flyerConstant = 238
+popupConstnat = 70
+
+pullConstant = 40
+centConstant = 35
+oppoConstant = 25
+
 homeLineup = initHomeTeamTest()
 awayLineup = initAwayTeamTest()
 
@@ -23,22 +43,7 @@ homeScore = 0
 awayScore = 0
 
 
-strikeoutConstant = 166
-walkConstant = 96
-HBPConstant = 8
-fieldoutConstant = 489
-hitConstant = 239
 
-contactMultiplier = 10
-
-linerConstant = 248
-grounderConstant = 444
-flyerConstant = 238
-popupConstnat = 70
-
-pullConstant = 40
-centConstant = 35
-oppoConstant = 25
 
 testHits = 0
 testTB = 0

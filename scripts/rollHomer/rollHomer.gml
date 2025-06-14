@@ -3,41 +3,46 @@ function rollHomer(ballType, ballDirection){
 		return false
 	}
 	
+	homerConstant = 0
+	homerModifier = ((powerScore+100)/100 - 1)*4 + 1
+	
 	if (currentBatter.batsRight){
 		if (ballType == "LINER"){
 			if (ballDirection == "PULL"){
-				return coinFlip(60)
+				homerConstant =60
 			} else if (ballDirection == "CENT"){
-				return coinFlip(18)
+				homerConstant =18
 			} else { //ballDirection is OPPO
-				return coinFlip(16)
+				homerConstant =16
 			}
 		} else { //ballType is FLYER
 			if (ballDirection == "PULL"){
-				return coinFlip(388)
+				homerConstant =388
 			} else if (ballDirection == "CENT"){
-				return coinFlip(108)
+				homerConstant =108
 			} else { //ballDirection is OPPO
-				return coinFlip(63)
+				homerConstant =63
 			}
 		}
 	} else { //currentBatter bats lefty
 		if (ballType == "LINER"){
 			if (ballDirection == "PULL"){
-				return coinFlip(57)
+				homerConstant =57
 			} else if (ballDirection == "CENT"){
-				return coinFlip(14)
+				homerConstant =14
 			} else { //ballDirection is OPPO
-				return coinFlip(10)
+				homerConstant =10
 			}
 		} else { //ballType is FLYER
 			if (ballDirection == "PULL"){
-				return coinFlip(297)
+				homerConstant =297
 			} else if (ballDirection == "CENT"){
-				return coinFlip(99)
+				homerConstant =99
 			} else { //ballDirection is OPPO
-				return coinFlip(50)
+				homerConstant = 50
 			}
 		}
 	}
+	
+	return coinFlip(homerConstant*homerModifier)
 }

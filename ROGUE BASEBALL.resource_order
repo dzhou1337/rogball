@@ -24,6 +24,7 @@
     {"name":"Font1","order":6,"path":"fonts/Font1/Font1.yy",},
     {"name":"obj_baller","order":1,"path":"objects/obj_baller/obj_baller.yy",},
     {"name":"obj_gamestate_bases","order":2,"path":"objects/obj_gamestate_bases/obj_gamestate_bases.yy",},
+    {"name":"obj_sim_constants","order":3,"path":"objects/obj_sim_constants/obj_sim_constants.yy",},
     {"name":"ballTypeToFielder","order":2,"path":"scripts/ballTypeToFielder/ballTypeToFielder.yy",},
     {"name":"battedBallTypeToBallDirection","order":3,"path":"scripts/battedBallTypeToBallDirection/battedBallTypeToBallDirection.yy",},
     {"name":"calcHBP","order":1,"path":"scripts/calcHBP/calcHBP.yy",},

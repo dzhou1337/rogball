@@ -1,5 +1,5 @@
 function calcStrikeout(){
-	strikeoutScore = strikeoutConstant - currentBatter.avoidKRating + currentPitcher.pitchVelocityRating
+	strikeoutChance = strikeoutConstant + strikeoutScore*strikeoutMultiplier
 
-	return strikeoutScore
+	return strikeoutChance
 }

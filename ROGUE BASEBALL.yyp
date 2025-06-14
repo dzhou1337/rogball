@@ -42,6 +42,7 @@
     {"id":{"name":"obj_baller","path":"objects/obj_baller/obj_baller.yy",},},
     {"id":{"name":"obj_gamestate_bases","path":"objects/obj_gamestate_bases/obj_gamestate_bases.yy",},},
     {"id":{"name":"obj_gamestate","path":"objects/obj_gamestate/obj_gamestate.yy",},},
+    {"id":{"name":"obj_sim_constants","path":"objects/obj_sim_constants/obj_sim_constants.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"ballTypeToFielder","path":"scripts/ballTypeToFielder/ballTypeToFielder.yy",},},
     {"id":{"name":"battedBallTypeToBallDirection","path":"scripts/battedBallTypeToBallDirection/battedBallTypeToBallDirection.yy",},},
