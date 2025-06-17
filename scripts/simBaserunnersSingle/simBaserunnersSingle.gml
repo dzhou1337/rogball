@@ -37,6 +37,22 @@ function simBaserunnersSingle(fielder){
 		//.668 chance to get to second
 		//.318 chance to get to third or home (home chance only for speedy runners)
 		//.014 chance to make an out
+		var secondChance = 668
+		thirdChance = 318
+		outChance = 14
+		resultDenominator = secondChance + thirdChance + outChance
+		resultRoll = irandom(resultDenominator-1)
+		if (resultRoll < secondChance){
+			//Runner on first goes to second
+			baserunners[1] = baserunners[0]
+		} else if (resultRoll < secondChance + thirdChance){
+			//runner on first goes to third
+			baserunners[2] = baserunners[0]
+		} else {
+			//Runner on first is out going to third
+			baserunners[0] = -1
+			outs += 1
+		}
 	} else {
 	//Infield single, fielder has no play
 		if (baserunners[0] != -1){
