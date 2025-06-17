@@ -551,6 +551,12 @@ function getBIPOutcome(fielder, ballType, ballDir){
 		}
 	}
 	
+	doubleModifier = ((powerScore+100)/100 - 1)*4 + 1
+	tripleModifier = ((powerScore+100)/100 + (currentBatter.speedRating/50) - 2)*4 + 1
+	
+	BIPOutcomes[1] = BIPOutcomes[1]*doubleModifier
+	BIPOutcomes[2] = BIPOutcomes[2]*tripleModifier
+	
 	BIPResult = rollBIP(BIPOutcomes)
 	
 	return BIPResult

@@ -9,8 +9,12 @@ powerRating = 50
 eyeRating = 50
 avoidKRating = 50
 
+speedRating = 50
+
 pitchVelocityRating = 50
 pitchMovementRating = 50
 pitchControlRating = 50
 
 ballerID = 0
+
+//git test

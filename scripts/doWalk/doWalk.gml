@@ -26,6 +26,7 @@ function doWalk(){
 		baserunners[0] = true
 	}
 	
+	testWalks += 1
 	lastPAResult = "HITTER WALKS"
 }
 

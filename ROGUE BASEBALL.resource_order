@@ -48,7 +48,7 @@
     {"name":"rollBallDirection","order":10,"path":"scripts/rollBallDirection/rollBallDirection.yy",},
     {"name":"rollBIP","order":17,"path":"scripts/rollBIP/rollBIP.yy",},
     {"name":"rollFielder","order":13,"path":"scripts/rollFielder/rollFielder.yy",},
-    {"name":"rollHomer","order":14,"path":"scripts/rollHomer/rollHomer.yy",},
+    {"name":"rollHomer","order":9,"path":"scripts/rollHomer/rollHomer.yy",},
     {"name":"scoreRuns","order":6,"path":"scripts/scoreRuns/scoreRuns.yy",},
     {"name":"simAB","order":4,"path":"scripts/simAB/simAB.yy",},
   ],
