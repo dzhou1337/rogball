@@ -37,7 +37,7 @@ currentBatter = getBallerByID(awayLineup[currentAwayBatterIndex])
 
 currentPitcher = instance_create_depth(x,y,0,obj_baller)
 
-baserunners = [false, false, false]
+baserunners = [-1,-1,-1]
 
 homeScore = 0
 awayScore = 0

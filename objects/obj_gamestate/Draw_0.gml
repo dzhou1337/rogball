@@ -35,18 +35,18 @@ draw_text(x,y+lineoffset*6, "AT BAT: " + currentBatter.firstName + " " + current
 draw_text(x,y+lineoffset*7, "PITCHING: " + currentPitcher.firstName + " " + currentPitcher.lastName)
 
 
-if baserunners[0]{
-	draw_text(x,y+lineoffset*9, "1st BASE: occupied")
+if (baserunners[0] != -1){
+	draw_text(x,y+lineoffset*9, "1st BASE: " + getBallerByID(baserunners[0]).firstName)
 } else {
 	draw_text(x,y+lineoffset*9, "1st BASE: empty")
 }
-if baserunners[1]{
-	draw_text(x,y+lineoffset*10, "2nd BASE: occupied")
+if (baserunners[1] != -1){
+	draw_text(x,y+lineoffset*10, "2nd BASE: " + getBallerByID(baserunners[1]).firstName)
 } else {
 	draw_text(x,y+lineoffset*10, "2nd BASE: empty")
 }
-if baserunners[2]{
-	draw_text(x,y+lineoffset*11, "3rd BASE: occupied")
+if (baserunners[2] != -1){
+	draw_text(x,y+lineoffset*11, "3rd BASE: " + getBallerByID(baserunners[2]).firstName)
 } else {
 	draw_text(x,y+lineoffset*11, "3rd BASE: empty")
 }

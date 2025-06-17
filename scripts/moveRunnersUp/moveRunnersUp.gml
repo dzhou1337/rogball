@@ -5,7 +5,7 @@ function moveRunnersUp(bases){
 				scoreRuns(1)
 			} else {
 				baserunners[i+bases] = baserunners[i]
-				baserunners[i] = false
+				baserunners[i] = -1
 			}
 		}
 	}

@@ -7,7 +7,7 @@ function doHomer(){
 	}
 	
 	scoreRuns(1 + baserunnerCount)
-	baserunners = [false,false,false]
+	baserunners = [-1,-1,-1]
 	
 	lastPAResult = "HITTER HOMERS"
 }

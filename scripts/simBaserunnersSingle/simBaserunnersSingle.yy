@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"moveRunnersUp",
+  "%Name":"simBaserunnersSingle",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"moveRunnersUp",
+  "name":"simBaserunnersSingle",
   "parent":{
     "name":"baserunning",
     "path":"folders/Scripts/baseball sim/baserunning.yy",
