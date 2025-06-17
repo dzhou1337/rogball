@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"rollHomer",
   "parent":{
-    "name":"baseball sim",
-    "path":"folders/Scripts/baseball sim.yy",
+    "name":"PA Results",
+    "path":"folders/Scripts/baseball sim/PA Results.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -51,6 +51,10 @@ testOnBase = 0
 testPA = 0
 testAB = 0
 testBIP = 0
+testDoubles = 0
+testTriples = 0
+testHRs = 0
+testWalks = 0
 
 lastPAResult = ""
 

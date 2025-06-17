@@ -19,6 +19,10 @@ if(testAB != 0 && testPA != 0){
 if(testBIP != 0){
 	draw_text(x+columnoffset*2, y+lineoffset*4,"BABIP: " + string_format(testHits/testBIP,1,3))
 }
+draw_text(x+columnoffset*2, y+lineoffset*5,"Doubles: " + string(testDoubles))
+draw_text(x+columnoffset*2, y+lineoffset*6,"Triples: " + string(testTriples))
+draw_text(x+columnoffset*2, y+lineoffset*7,"HR: " + string(testHRs))
+draw_text(x+columnoffset*2, y+lineoffset*8,"Walks: " + string(testWalks))
 
 
 if(topOfInning){
