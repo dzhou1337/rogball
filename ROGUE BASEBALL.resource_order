@@ -52,5 +52,6 @@
     {"name":"rollHomer","order":4,"path":"scripts/rollHomer/rollHomer.yy",},
     {"name":"scoreRuns","order":6,"path":"scripts/scoreRuns/scoreRuns.yy",},
     {"name":"simAB","order":4,"path":"scripts/simAB/simAB.yy",},
+    {"name":"simBaserunnersDouble","order":2,"path":"scripts/simBaserunnersDouble/simBaserunnersDouble.yy",},
   ],
 }

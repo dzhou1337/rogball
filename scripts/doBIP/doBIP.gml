@@ -37,7 +37,7 @@ function doBIP(){
 			testTB += 1
 			testOnBase += 1
 			
-			doSingle()
+			doSingle(fielder)
 		} else if(outcome == "DOUBLE"){
 			testHits += 1
 			testTB += 2

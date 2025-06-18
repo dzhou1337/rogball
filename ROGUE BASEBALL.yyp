@@ -75,6 +75,7 @@
     {"id":{"name":"rollHomer","path":"scripts/rollHomer/rollHomer.yy",},},
     {"id":{"name":"scoreRuns","path":"scripts/scoreRuns/scoreRuns.yy",},},
     {"id":{"name":"simAB","path":"scripts/simAB/simAB.yy",},},
+    {"id":{"name":"simBaserunnersDouble","path":"scripts/simBaserunnersDouble/simBaserunnersDouble.yy",},},
     {"id":{"name":"simBaserunnersSingle","path":"scripts/simBaserunnersSingle/simBaserunnersSingle.yy",},},
   ],
   "resourceType":"GMProject",

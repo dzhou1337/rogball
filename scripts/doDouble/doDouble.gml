@@ -1,5 +1,5 @@
 function doDouble(){
-	moveRunnersUp(2)
+	simBaserunnersDouble()
 	
 	baserunners[1] = currentBatter.ballerID
 	
