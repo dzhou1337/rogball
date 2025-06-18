@@ -1,7 +1,7 @@
 function doDouble(){
-	moveRunnersUp(2)
+	simBaserunnersDouble()
 	
-	baserunners[1] = true
+	baserunners[1] = currentBatter.ballerID
 	
 	lastPAResult = "HITTER DOUBLES"
 }

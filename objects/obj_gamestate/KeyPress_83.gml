@@ -1,1 +1,1 @@
-doSingle()
+doSingle("LF")

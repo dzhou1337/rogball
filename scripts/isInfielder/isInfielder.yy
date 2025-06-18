@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"moveRunnersUp",
+  "%Name":"isInfielder",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"moveRunnersUp",
+  "name":"isInfielder",
   "parent":{
-    "name":"baserunning",
-    "path":"folders/Scripts/baseball sim/baserunning.yy",
+    "name":"baseball sim",
+    "path":"folders/Scripts/baseball sim.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

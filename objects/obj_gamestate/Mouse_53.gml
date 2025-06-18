@@ -16,7 +16,7 @@ if (outs >= 3){
 	topOfInning = !topOfInning
 	
 	outs = 0
-	baserunners = [false,false,false]
+	baserunners = [-1,-1,-1]
 }
 
 if(topOfInning){
