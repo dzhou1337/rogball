@@ -9,15 +9,15 @@ if keyboard_check(vk_shift){
 	if keyboard_check(ord("P")){
 		z = 30
 		direction = point_direction(x,y,mouse_x,mouse_y)
-		speed = 10
-		zspeed = 30
+		speed = 5
+		zspeed = 15
 	}
 	
 	if keyboard_check(ord("F")){
 		z = 30
 		direction = point_direction(x,y,mouse_x,mouse_y)
-		speed = 50
-		zspeed = 1
+		speed = 15
+		zspeed = -2
 	}
 } else {
 	x = mouse_x
