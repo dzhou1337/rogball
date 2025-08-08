@@ -53,7 +53,9 @@ function doBIP(){
 			
 			doTriple()
 		} else {
-			doFieldOut()
+			
+			
+			doFieldOut(fielder,battedBallType)
 			
 			
 		}

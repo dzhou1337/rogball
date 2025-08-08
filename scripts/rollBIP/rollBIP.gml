@@ -1,7 +1,7 @@
 function rollBIP(BIPChances){
 	var resultDenominator = 0
 	
-	for(var i = 0 ; i < 4; i += 1){
+	for(var i = 0 ; i < array_length(BIPChances); i += 1){
 		resultDenominator += BIPChances[i]
 	}
 	
