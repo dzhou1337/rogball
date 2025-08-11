@@ -1,1 +1,0 @@
-fielderID = 0

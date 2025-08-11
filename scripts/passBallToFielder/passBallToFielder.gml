@@ -1,5 +1,6 @@
 function passBallToFielder(fielder){
 	var targetFielder = getFielderByID(fielder)
+	targetFielder.state = ballerState.catching
 	show_debug_message("hello")
 	var distance = point_distance(x,y,targetFielder.x,targetFielder.y)
 	var launchAngle = getLaunchAngleForDistance(maxArmStrength, distance)

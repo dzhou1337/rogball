@@ -69,6 +69,7 @@
     {"name":"simAB","order":4,"path":"scripts/simAB/simAB.yy",},
     {"name":"simBaserunnersDouble","order":2,"path":"scripts/simBaserunnersDouble/simBaserunnersDouble.yy",},
     {"name":"simBaserunnersOut","order":3,"path":"scripts/simBaserunnersOut/simBaserunnersOut.yy",},
+    {"name":"spr_baller_catching","order":8,"path":"sprites/spr_baller_catching/spr_baller_catching.yy",},
     {"name":"spr_baller","order":4,"path":"sprites/spr_baller/spr_baller.yy",},
     {"name":"spr_baseball_shadow","order":3,"path":"sprites/spr_baseball_shadow/spr_baseball_shadow.yy",},
     {"name":"spr_baseball","order":2,"path":"sprites/spr_baseball/spr_baseball.yy",},
