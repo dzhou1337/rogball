@@ -1,16 +1,12 @@
-enum ballerState {
-	waiting,
-	gettingBall,
-	trackingBall,
-	goingToWaypoint,
-}
-
 state = ballerState.waiting
 
 height = 70
-maxspeed = 4
+maxspeed = 2
 
-maxArmStrength = 20
+maxArmStrength = 15
 fielderID = 0
 
-hasBall = 0
+
+
+desiredX = 0
+desiredY = 0

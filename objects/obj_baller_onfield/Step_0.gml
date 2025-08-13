@@ -4,10 +4,14 @@ if(state == ballerState.gettingBall){
 }
 
 if(state == ballerState.goingToWaypoint){
-	direction = point_direction(x,y,obj_baller_onfield_waypoint.x, obj_baller_onfield_waypoint.y)
+	direction = point_direction(x,y,desiredX, desiredY)
 	speed = maxspeed
 }
 
 if (state == ballerState.waiting){
+	speed = 0
+}
+
+if (state == ballerState.catching){
 	speed = 0
 }
