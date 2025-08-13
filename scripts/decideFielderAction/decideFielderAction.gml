@@ -1,0 +1,21 @@
+function decideFielderAction(){
+	/*
+	 * This runs right as a ball is being put in play
+	 * Each fielder runs this method. They will look at the trajectory of the ball,
+	 * and their own position to decide what they should do as the ball is put in play.
+	 * Fielders will either try to get the ball, cover a base, or back up a play.
+	 */
+	 
+	 //If the fielder can make an out by catching a ball on the fly, go for the play
+	 if(hasPlayFielderOut()){
+		getBallerSpotFromBall(waypointPurpose.catching)	 
+	 }
+	 
+	 //If the fielder can get to the ball, get into position to catch the ball
+	 
+	 
+	 //Otherwise, if the fielder is closest to a base, they should cover that base
+	 
+	 
+	 //If they don't reserve a base to cover, back up a play or be the cutoff guy
+}

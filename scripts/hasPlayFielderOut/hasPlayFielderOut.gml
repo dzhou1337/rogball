@@ -1,4 +1,4 @@
-function getBallerSpotFromBall(purpose){
+function hasPlayFielderOut(){
 	ballerX = x
 	ballerY = y	
 	ballerHeight = height
@@ -14,12 +14,11 @@ function getBallerSpotFromBall(purpose){
 		
 	
 		
-		while (pZ >= 0 && speed > 0){
+		while (pZ > 0){
 			framesFromCalc += 1
 			
-			if(pZ == 0){
-			pSpeed = max(0, pSpeed - rollResistCoef - rollResistSpeedCoef *(power(pSpeed,2)))
-			//speed = max(0, speed - .01)
+			if(pZ == 0 || (pZ + pZSpeed <= 0 && abs(pZSpeed) > 4)){
+				return false
 			}
 
 			//slowdown due to drag
@@ -27,10 +26,6 @@ function getBallerSpotFromBall(purpose){
 
 			if(pZ > 0){
 				pZSpeed -= ballgravity
-			}
-
-			if(pZ + pZSpeed <= 0 && abs(pZSpeed) > 4){
-				pZSpeed = -1 * pZSpeed * bounceCoefficient
 			}
 			
 			pXSpeed = lengthdir_x(pSpeed,pDirection)
@@ -45,19 +40,11 @@ function getBallerSpotFromBall(purpose){
 				distance = point_distance(pX, pY, other.x, other.y)
 				
 				if (distance < other.maxspeed * framesFromCalc){
-					instance_create_depth(pX, pY-pZ,0,obj_greenbox)
-					waypoint = instance_create_depth(pX, pY, 0, obj_baller_onfield_waypoint)
-					waypoint.fielder = other.fielder
-					waypoint.purpose = purpose
-					other.desiredX = pX
-					other.desiredY = pY
-					other.state = ballerState.goingToWaypoint
-					
-					break
-				} else {
-					instance_create_depth(pX, pY-pZ,0,obj_redbox)
+					return true
 				}
 			}	
 		}
 	}
+	
+	return false
 }
