@@ -1,4 +1,5 @@
 state = ballerState.waiting
+baseToCover = baseType.undefined
 
 height = 70
 maxspeed = 2

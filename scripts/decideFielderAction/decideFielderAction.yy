@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"decideFielderAction",
   "parent":{
-    "name":"action sim",
-    "path":"folders/Scripts/action sim.yy",
+    "name":"fielder scripts",
+    "path":"folders/Scripts/action sim/fielder scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

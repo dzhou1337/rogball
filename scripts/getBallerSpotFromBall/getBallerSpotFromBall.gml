@@ -1,16 +1,18 @@
 function getBallerSpotFromBall(purpose){
-	ballerX = x
-	ballerY = y	
-	ballerHeight = height
+	show_debug_message(string(fielder) + ": gimme")
+	
+	var ballerX = x
+	var ballerY = y	
+	var ballerHeight = height
 	
 	with(obj_baseball){
-		pX = obj_baseball.x
-		pY = obj_baseball.y
-		pZ = obj_baseball.z
-		pZSpeed = obj_baseball.zspeed
-		pSpeed = obj_baseball.speed
-		pDirection = obj_baseball.direction
-		framesFromCalc = 0
+		var pX = obj_baseball.x
+		var pY = obj_baseball.y
+		var pZ = obj_baseball.z
+		var pZSpeed = obj_baseball.zspeed
+		var pSpeed = obj_baseball.speed
+		var pDirection = obj_baseball.direction
+		var framesFromCalc = 0
 		
 	
 		
@@ -33,8 +35,8 @@ function getBallerSpotFromBall(purpose){
 				pZSpeed = -1 * pZSpeed * bounceCoefficient
 			}
 			
-			pXSpeed = lengthdir_x(pSpeed,pDirection)
-			pYSpeed = lengthdir_y(pSpeed,pDirection)
+			var pXSpeed = lengthdir_x(pSpeed,pDirection)
+			var pYSpeed = lengthdir_y(pSpeed,pDirection)
 			
 			pX = pX+pXSpeed
 			pY = pY+pYSpeed

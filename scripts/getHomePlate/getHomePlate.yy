@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"initEnums",
+  "%Name":"getHomePlate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"initEnums",
+  "name":"getHomePlate",
   "parent":{
-    "name":"enums",
-    "path":"folders/Scripts/action sim/enums.yy",
+    "name":"action sim",
+    "path":"folders/Scripts/action sim.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

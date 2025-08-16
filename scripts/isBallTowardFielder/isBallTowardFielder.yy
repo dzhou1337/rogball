@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"hasPlayFielderOut",
+  "%Name":"isBallTowardFielder",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"hasPlayFielderOut",
+  "name":"isBallTowardFielder",
   "parent":{
     "name":"fielder scripts",
     "path":"folders/Scripts/action sim/fielder scripts.yy",
