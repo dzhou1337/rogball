@@ -6,10 +6,25 @@ function decideFielderAction(){
 	 * Fielders will either try to get the ball, cover a base, or back up a play.
 	 */
 	 
+
+	 
+	if(hasPlayFielderOut()){
+		getBallerSpotFromBall(waypointPurpose.catching)
+	} else if (hasPlayQuickStop()){
+		getBallerSpotFromBall(waypointPurpose.catching)
+	} else {
+		fieldersCoverBases()
+		
+	}
+	 
+	 
+	 
 	 //If the fielder can make an out by catching a ball on the fly, go for the play
+	 /*
 	 if(hasPlayFielderOut()){
 		getBallerSpotFromBall(waypointPurpose.catching)	 
 	 }
+	 */
 	 
 	 //If the fielder can get to the ball, get into position to catch the ball
 	 

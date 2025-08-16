@@ -3,7 +3,7 @@ if(state == ballerState.gettingBall){
 	speed = maxspeed
 }
 
-if(state == ballerState.goingToWaypoint){
+if(state == ballerState.goingToWaypoint || state == ballerState.coveringBase){
 	direction = point_direction(x,y,desiredX, desiredY)
 	speed = maxspeed
 }
@@ -15,3 +15,10 @@ if (state == ballerState.waiting){
 if (state == ballerState.catching){
 	speed = 0
 }
+
+if (state == ballerState.holdingBase){
+	speed = 0
+}
+
+
+

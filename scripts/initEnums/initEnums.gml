@@ -11,6 +11,16 @@ function initEnums(){
 		gettingBall,
 		trackingBall,
 		holdingBall,
-		goingToWaypoint
+		goingToWaypoint,
+		coveringBase,
+		holdingBase
+	}
+	
+	enum baseType {
+		home,
+		first,
+		second,
+		third,
+		undefined
 	}
 }
