@@ -10,3 +10,5 @@ if(state == ballerState.catching){
 } else {
 	draw_sprite(spr_baller,0,x,y)
 }
+
+draw_text(x,y,baseToCover)

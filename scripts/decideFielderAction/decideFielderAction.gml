@@ -14,7 +14,12 @@ function decideFielderAction(){
 		getBallerSpotFromBall(waypointPurpose.catching)
 	} else {
 		fieldersCoverBases()
-		
+	}
+	
+	
+	
+	if(state == ballerState.waiting && isBallTowardFielder()){
+		getBallerSpotFromBall(waypointPurpose.catching)	
 	}
 	 
 	 

@@ -20,5 +20,11 @@ if (state == ballerState.holdingBase){
 	speed = 0
 }
 
+if (state == ballerState.holdingBall){
+	if (baseToCover != baseType.first){
+		throwBallToBase(baseType.first)
+	}
+	state = ballerState.waiting
+}
 
 
