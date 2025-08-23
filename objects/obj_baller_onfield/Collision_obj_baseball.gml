@@ -10,4 +10,6 @@ if(state == ballerState.catching and other.z < 70){
 	with(other){
 		instance_destroy()	
 	}
+	
+	
 }

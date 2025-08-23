@@ -3,7 +3,7 @@
 function isBallTowardFielder(){
 	var maxAngle = 25
 	
-	var homePlate = getHomePlate()
+	var homePlate = getBaseByBaseType(baseType.home)
 	
 	var homeToFielder = point_direction(homePlate.x, homePlate.y, x, y)
 	var ballPath = obj_baseball.direction
