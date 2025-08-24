@@ -43,6 +43,7 @@
   "name":"ROGUE BASEBALL",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_baller_baserunner","path":"objects/obj_baller_baserunner/obj_baller_baserunner.yy",},},
     {"id":{"name":"obj_baller_onfield_waypoint","path":"objects/obj_baller_onfield_waypoint/obj_baller_onfield_waypoint.yy",},},
     {"id":{"name":"obj_baller_onfield","path":"objects/obj_baller_onfield/obj_baller_onfield.yy",},},
     {"id":{"name":"obj_baller","path":"objects/obj_baller/obj_baller.yy",},},
@@ -111,6 +112,7 @@
     {"id":{"name":"simBaserunnersOut","path":"scripts/simBaserunnersOut/simBaserunnersOut.yy",},},
     {"id":{"name":"simBaserunnersSingle","path":"scripts/simBaserunnersSingle/simBaserunnersSingle.yy",},},
     {"id":{"name":"throwBallToBase","path":"scripts/throwBallToBase/throwBallToBase.yy",},},
+    {"id":{"name":"spr_baller_baserunner","path":"sprites/spr_baller_baserunner/spr_baller_baserunner.yy",},},
     {"id":{"name":"spr_baller_catching","path":"sprites/spr_baller_catching/spr_baller_catching.yy",},},
     {"id":{"name":"spr_baller","path":"sprites/spr_baller/spr_baller.yy",},},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},},
