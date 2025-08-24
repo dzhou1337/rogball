@@ -38,6 +38,32 @@ function getBallerSpotFromBall(purpose){
 			var pXSpeed = lengthdir_x(pSpeed,pDirection)
 			var pYSpeed = lengthdir_y(pSpeed,pDirection)
 			
+			if(place_meeting(pX+pXSpeed, pY+pYSpeed,obj_wall)){
+				// Find surface normal
+				var wallNormal = collision_normal(pX,pY,obj_wall,pSpeed,1)
+		
+				if (wallNormal != -1){
+					var nx = lengthdir_x(1, wallNormal);
+					var ny = lengthdir_y(1, wallNormal);
+		
+					// Find incident vector
+					var ix = lengthdir_x(1, pDirection);
+					var iy = lengthdir_y(1, pDirection);
+		
+					// Find reflection vector
+					var rx = ix - 2 * nx * dot_product(ix, iy, nx, ny);
+					var ry = iy - 2 * ny * dot_product(ix, iy, nx, ny);
+		
+					move_outside_solid(wallNormal, pSpeed);
+					pDirection = point_direction(0, 0, rx, ry);
+					pXSpeed = lengthdir_x(pSpeed,pDirection)
+					pYSpeed = lengthdir_y(pSpeed,pDirection)
+					show_debug_message("bounce")
+				}
+		
+			}
+			
+			
 			pX = pX+pXSpeed
 			pY = pY+pYSpeed
 			pZ = max(0,pZ+pZSpeed)
