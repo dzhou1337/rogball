@@ -23,4 +23,9 @@ function initEnums(){
 		third,
 		undefined
 	}
+	
+	enum runnerState {
+		waiting,
+		running
+	}
 }
