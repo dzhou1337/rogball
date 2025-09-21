@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_baller_baserunner",
+  "%Name":"obj_field_fielderspot",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_baller_baserunner",
+  "name":"obj_field_fielderspot",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"fielder","filters":[],"listItems":[],"multiselect":false,"name":"fielder","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_baller_baserunner",
-    "path":"sprites/spr_baller_baserunner/spr_baller_baserunner.yy",
+    "name":"spr_field_fielderspot",
+    "path":"sprites/spr_field_fielderspot/spr_field_fielderspot.yy",
   },
   "spriteMaskId":null,
   "visible":true,
