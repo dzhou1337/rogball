@@ -1,6 +1,6 @@
 function throwBallToBase(baseType){
-	targetBase = getBaseByBaseType(baseType)
-	targetFielder = targetBase.reservedFielder
+	var targetBase = getBaseByBaseType(baseType)
+	var targetFielder = targetBase.reservedFielder
 	
 	passBallToFielder(targetFielder)
 }

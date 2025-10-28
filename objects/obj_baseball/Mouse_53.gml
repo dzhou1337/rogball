@@ -1,3 +1,4 @@
+/*
 if keyboard_check(vk_shift){
 	if keyboard_check(ord("G")){
 		z = 30
@@ -36,3 +37,4 @@ if keyboard_check(vk_shift){
 	//isBallTowardFielder()
 	
 }
+*/

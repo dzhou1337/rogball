@@ -4,9 +4,10 @@ baseToCover = baseType.undefined
 height = 70
 maxspeed = 2
 
-maxArmStrength = 15
+maxArmStrength = 9
 fielderID = 0
 
+hasBall = false
 
 
 desiredX = 0
