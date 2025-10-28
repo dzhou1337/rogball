@@ -21,7 +21,8 @@ function initEnums(){
 		first,
 		second,
 		third,
-		undefined
+		undefined,
+		error
 	}
 	
 	enum runnerState {

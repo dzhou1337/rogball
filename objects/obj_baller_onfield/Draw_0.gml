@@ -11,4 +11,5 @@ if(state == ballerState.catching){
 	draw_sprite(spr_baller,0,x,y)
 }
 
-draw_text(x,y,baseToCover)
+
+draw_text(x,y-20,"covering: " + basetypeToString(baseToCover))
