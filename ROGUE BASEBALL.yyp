@@ -76,6 +76,7 @@
     {"id":{"name":"collision_normal","path":"scripts/collision_normal/collision_normal.yy",},},
     {"id":{"name":"coverNearestBase","path":"scripts/coverNearestBase/coverNearestBase.yy",},},
     {"id":{"name":"decideFielderAction","path":"scripts/decideFielderAction/decideFielderAction.yy",},},
+    {"id":{"name":"decideFielderActionFirst","path":"scripts/decideFielderActionFirst/decideFielderActionFirst.yy",},},
     {"id":{"name":"decideRunnerAction","path":"scripts/decideRunnerAction/decideRunnerAction.yy",},},
     {"id":{"name":"doBallMovement","path":"scripts/doBallMovement/doBallMovement.yy",},},
     {"id":{"name":"doBallMovementPredict","path":"scripts/doBallMovementPredict/doBallMovementPredict.yy",},},

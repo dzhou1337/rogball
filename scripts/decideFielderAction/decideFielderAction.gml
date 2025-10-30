@@ -6,19 +6,10 @@ function decideFielderAction(){
 	 * Fielders will either try to get the ball, cover a base, or back up a play.
 	 */
 	
-	if(instance_exists(obj_baseball)){
-		
-		var ballToMe = isBallTowardFielder()
-	 
-		if(ballToMe){
-			show_debug_message(string(fielder) + ": the ball is coming to me")
-			getBallerSpotFromBall(waypointPurpose.catching)
-		}
-		 
-	}
+	
 	
 	if(state == ballerState.waiting){
-		show_debug_message(string(fielder) + " looking for base")
+		//show_debug_message(string(fielder) + " looking for base")
 		if(shouldCoverNearestBase()){
 			coverNearestBase()
 		}

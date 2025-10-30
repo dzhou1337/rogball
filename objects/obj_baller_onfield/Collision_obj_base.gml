@@ -9,5 +9,8 @@ if((state == ballerState.holdingBall || hasBall) && other.base == baseToCover &&
 	makeBaserunnerOut(other.reservedBaserunner)
 	other.reservedBaserunner = -1
 	
-	state = ballerState.holdingBall
+	//state = ballerState.holdingBall
+	if(hasBall){
+		state = ballerState.holdingBall	
+	}
 }

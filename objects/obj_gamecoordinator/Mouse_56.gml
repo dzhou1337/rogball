@@ -4,6 +4,7 @@ with(obj_baller_baserunner){
 }
 
 with(obj_baller_onfield){
+	decideFielderActionFirst()
 	decideFielderAction()
 
 }

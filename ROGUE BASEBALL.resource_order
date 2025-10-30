@@ -55,6 +55,7 @@
     {"name":"coinFlip","order":15,"path":"scripts/coinFlip/coinFlip.yy",},
     {"name":"collision_normal","order":9,"path":"scripts/collision_normal/collision_normal.yy",},
     {"name":"coverNearestBase","order":13,"path":"scripts/coverNearestBase/coverNearestBase.yy",},
+    {"name":"decideFielderActionFirst","order":16,"path":"scripts/decideFielderActionFirst/decideFielderActionFirst.yy",},
     {"name":"decideRunnerAction","order":4,"path":"scripts/decideRunnerAction/decideRunnerAction.yy",},
     {"name":"doBallMovement","order":1,"path":"scripts/doBallMovement/doBallMovement.yy",},
     {"name":"doBallMovementPredict","order":2,"path":"scripts/doBallMovementPredict/doBallMovementPredict.yy",},

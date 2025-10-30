@@ -20,14 +20,14 @@ with(ball){
 		if keyboard_check(ord("F")){
 			z = 30
 			direction = point_direction(x,y,mouse_x,mouse_y)
-			speed = 11
-			zspeed = 9
+			speed = 14
+			zspeed = 12
 		}
 	
 		if keyboard_check(ord("L")){
 			z = 30
 			direction = point_direction(x,y,mouse_x,mouse_y)
-			speed = 12
+			speed = 15
 			zspeed = 3
 		}
 	} else {
