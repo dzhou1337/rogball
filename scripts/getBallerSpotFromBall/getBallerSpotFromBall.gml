@@ -68,18 +68,21 @@ function getBallerSpotFromBall(purpose){
 			pY = pY+pYSpeed
 			pZ = max(0,pZ+pZSpeed)
 			
-			if(pZ <= other.ballerHeight){
+			if(pZ <= other.height){
 				
-				distance = point_distance(pX, pY, other.x, other.y)
+				var distance = point_distance(pX, pY, other.x, other.y)
 				
 				if (distance < other.maxspeed * framesFromCalc){
 					//instance_create_depth(pX, pY-pZ,0,obj_greenbox)
-					waypoint = instance_create_depth(pX, pY, 0, obj_baller_onfield_waypoint)
+					var waypoint = instance_create_depth(pX, pY, 0, obj_baller_onfield_waypoint)
 					waypoint.fielder = other.fielder
 					waypoint.purpose = purpose
 					other.desiredX = pX
 					other.desiredY = pY
 					other.state = ballerState.goingToWaypoint
+					
+					var gotitWaypoint = instance_create_depth(pX, pY, 0, obj_baller_onfield_waypoint_gotit)
+					gotitWaypoint.fielder = other.fielder
 					
 					break
 				} else {

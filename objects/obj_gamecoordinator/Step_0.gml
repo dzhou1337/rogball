@@ -53,9 +53,18 @@ if keyboard_check_pressed(resetKey){
 		guy.runnerId = other.resetCount
 	}
 	
-	
-	
-	
-	
+}
+
+if keyboard_check_pressed(ord("A")){
+	with(obj_baller_onfield){
+		decideFielderAction()
+	}
+}
+if keyboard_check_pressed(ord("B")){
+	if(instance_exists(obj_baseball)){
+		show_debug_message("we have a ball")	
+	} else {
+		show_debug_message("we have no ball")	
+	}
 }
 

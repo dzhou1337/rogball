@@ -1,4 +1,4 @@
-if(state == ballerState.catching and other.z < 70){
+if((state == ballerState.catching and other.z < 70) || catchingWhileMoving){
 	state = ballerState.holdingBall
 	hasBall = true
 	
