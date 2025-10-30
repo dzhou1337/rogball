@@ -5,3 +5,5 @@ reservedFielder = -1
 reservedBaserunner = -1
 
 hasForceOut = false
+
+//base = baseType.undefined

@@ -13,7 +13,8 @@ function initEnums(){
 		holdingBall,
 		goingToWaypoint,
 		coveringBase,
-		holdingBase
+		holdingBase,
+		catchingWhileMoving
 	}
 	
 	enum baseType {

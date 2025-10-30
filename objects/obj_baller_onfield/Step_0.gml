@@ -3,12 +3,19 @@ if(state == ballerState.gettingBall){
 	speed = maxspeed
 }
 
-if(state == ballerState.goingToWaypoint || state == ballerState.coveringBase){
+if(state == ballerState.goingToWaypoint ){
 	direction = point_direction(x,y,desiredX, desiredY)
 	speed = maxspeed
 }
 
+if(state == ballerState.coveringBase){
+	var base = getBaseByBaseType(baseToCover)
+	direction = point_direction(x,y,base.x, base.y)
+	speed = maxspeed
+}
+
 if (state == ballerState.waiting){
+	draw_text(x,y-20,"WAITING")
 	speed = 0
 }
 
@@ -60,6 +67,9 @@ if (state == ballerState.holdingBall){
 		//eat the ball
 		state = ballerState.waiting
 	}
+	
+	decideFielderAction()
+	
 	
 	
 }

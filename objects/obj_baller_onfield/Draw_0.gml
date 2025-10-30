@@ -13,3 +13,7 @@ if(state == ballerState.catching){
 
 
 draw_text(x,y-20,"covering: " + basetypeToString(baseToCover))
+
+if (state == ballerState.waiting){
+	draw_text(x,y-40,"WAITING")
+}
