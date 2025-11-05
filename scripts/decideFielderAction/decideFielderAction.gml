@@ -15,35 +15,14 @@ function decideFielderAction(){
 		}
 	}
 	
-	
-	 
-	 
-	/*
-	 
-	if(hasPlayFielderOut()){
-		getBallerSpotFromBall(waypointPurpose.catching)
-	} else if (hasPlayQuickStop()){
-		getBallerSpotFromBall(waypointPurpose.catching)
-	} else {
-		fieldersCoverBases()
-	}
-	
-	
-	
-	if(state == ballerState.waiting && isBallTowardFielder()){
-		getBallerSpotFromBall(waypointPurpose.catching)	
+	if(instance_exists(obj_baseball)){
+		if(state == ballerState.waiting && isBallTowardFielder()){
+			getBallerSpotFromBall(waypointPurpose.catching)	
+		}
 	}
 	 
+	
 	 
-	 
-	 //If the fielder can make an out by catching a ball on the fly, go for the play
-	 /*
-	 if(hasPlayFielderOut()){
-		getBallerSpotFromBall(waypointPurpose.catching)	 
-	 }
-	 */
-	 
-	 //If the fielder can get to the ball, get into position to catch the ball
 	 
 	 
 	 //Otherwise, if the fielder is closest to a base, they should cover that base

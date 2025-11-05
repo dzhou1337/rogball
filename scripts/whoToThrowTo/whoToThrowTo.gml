@@ -20,11 +20,6 @@ function whoToThrowTo(){
 		leadForceOut = baseType.first
 	}
 	
-	/*var easiestOut = findEasiestForceout()
-	if(easiestOut != baseType.undefined){
-		show_debug_message("easiest out: " + string(targetFielder))
-		targetFielder = getBaseByBaseType(easiestOut).reservedFielder
-	}*/
 	
 	if(leadForceOut != baseType.undefined){
 		show_debug_message(string(fielder) + ": I should throw to" + basetypeToString(leadForceOut))
@@ -33,7 +28,8 @@ function whoToThrowTo(){
 	
 	
 	
-	//targetFielder = 3
+	
+	
 	
 	show_debug_message(string(fielder) + ": I'm throwing to " + string(targetFielder))
 	
