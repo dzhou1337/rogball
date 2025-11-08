@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"getLaunchAngleForDistance",
+  "%Name":"canMakeThrow",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"getLaunchAngleForDistance",
+  "name":"canMakeThrow",
   "parent":{
     "name":"fielder scripts",
     "path":"folders/Scripts/action sim/fielder scripts.yy",

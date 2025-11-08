@@ -4,10 +4,12 @@ with(obj_baller_baserunner){
 }
 
 with(obj_baller_onfield){
+	decideFielderActionFirst()
 	decideFielderAction()
 
 }
 
+/*
 with(obj_base){
 	if(reservedBaserunner != -1 && reservedFielder == -1){
 		var nearestFielder = findNearestIdleFielder(x,y)
@@ -16,6 +18,7 @@ with(obj_base){
 		reservedFielder = nearestFielder.fielder
 	}
 }
+*/
 
 
 

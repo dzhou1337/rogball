@@ -6,7 +6,7 @@ catchingWhileMoving = false
 height = 70
 maxspeed = 2
 
-maxArmStrength = 9
+maxArmStrength = 10
 fielderID = 0
 
 hasBall = false

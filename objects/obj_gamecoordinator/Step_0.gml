@@ -38,6 +38,14 @@ if keyboard_check_pressed(resetKey){
 		instance_destroy()
 	}
 	
+	with(obj_baller_onfield_waypoint){
+		instance_destroy()	
+	}
+	
+	with(obj_baller_onfield_waypoint_gotit){
+		instance_destroy()	
+	}
+	
 	with(obj_base){
 		reservedFielder = -1
 

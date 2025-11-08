@@ -29,7 +29,6 @@ if (state == ballerState.holdingBase){
 
 if (state == ballerState.holdingBall){
 	
-	
 	var targetFielder = whoToThrowTo()
 
 	if (targetFielder != -1){
@@ -63,6 +62,7 @@ if (state == ballerState.holdingBall){
 		passBallToFielder(targetFielder)
 		show_debug_message("throwing to: " + string(targetFielder))
 		state = ballerState.waiting
+
 	} else {
 		//eat the ball
 		state = ballerState.waiting

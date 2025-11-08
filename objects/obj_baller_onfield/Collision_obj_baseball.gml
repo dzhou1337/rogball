@@ -12,5 +12,9 @@ if((state == ballerState.catching and other.z < 70) || catchingWhileMoving){
 		instance_destroy()	
 	}
 	
+	with(obj_baller_onfield){
+		decideFielderAction()	
+	}
+	
 	
 }
