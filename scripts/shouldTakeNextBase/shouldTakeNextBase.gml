@@ -9,9 +9,9 @@ function shouldTakeNextBase(){
 		var nextBase = getBaseByBaseType(getNextBase(currentBase))
 		var distanceBallToBase = point_distance(ball.x, ball.y, nextBase.x, nextBase.y)
 		
-		var distanceThreshold = 200
+		var distanceThreshold = 500
 		
-		if (distanceBallToBase > 200){
+		if (distanceBallToBase > distanceThreshold){
 			return true	
 		} else {
 			return false	
